@@ -1,0 +1,23 @@
+{
+  "name": "StoredBook",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "library_id": {
+      "type": "number",
+      "required": true
+    },
+    "book_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
