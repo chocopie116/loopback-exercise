@@ -33,5 +33,9 @@
   "Book": {
     "dataSource": "db",
     "public": true
+  },
+  "Librarian": {
+    "dataSource": "db",
+    "public": true
   }
 }
