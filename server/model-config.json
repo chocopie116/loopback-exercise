@@ -45,5 +45,9 @@
   "Lease": {
     "dataSource": "db",
     "public": true
+  },
+  "Reservation": {
+    "dataSource": "db",
+    "public": true
   }
 }
