@@ -41,5 +41,9 @@
   "StoredBook": {
     "dataSource": "db",
     "public": true
+  },
+  "Lease": {
+    "dataSource": "db",
+    "public": true
   }
 }
