@@ -21,7 +21,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "storedBooks": {
+      "type": "hasMany",
+      "model": "StoredBook",
+      "foreignKey": "book_id"
+    }
+  },
   "acls": [],
   "methods": []
 }
